@@ -108,7 +108,7 @@ var boxF = Bodies.circle(width/2, 260, scaleValue(40), {
         sprite: {
             texture: 'https://i.postimg.cc/ZYj5Q8C1/image.png',
             xScale: scaleValue(80) / 183,
-            yScale: scaleValue(80) / 283,
+            yScale: scaleValue(80) / 183,
         }, 
     }
 });
