@@ -1,0 +1,11 @@
+
+body {
+
+   background: gray;
+   line-height: 1.25;
+   color: #25282B;
+}
+canvas{
+   display: flex;
+   justify-self: center;
+}
