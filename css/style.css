@@ -1,11 +1,7 @@
-
 body {
-
+   display: flex;
    background: gray;
-   line-height: 1.25;
    color: #25282B;
 }
-canvas{
-   display: flex;
-   justify-self: center;
-}
+
+#canvas-container { width: 100vw; height: 100vh; }
