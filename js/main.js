@@ -49,7 +49,7 @@ var boxA = Bodies.rectangle(width/2, 200, scaleValue(80), scaleValue(80), {
         }, 
         fillStyle: null,
     },
-    restitution: 1.2
+    restitution: 1.1 + width / 5000
 });
 var img = Bodies.rectangle(width/2, 200, scaleValue(80), scaleValue(80), {   
     render: {
@@ -60,7 +60,7 @@ var img = Bodies.rectangle(width/2, 200, scaleValue(80), scaleValue(80), {
 
         }, 
     },
-    restitution: 1
+    restitution: 1.1 + width /5000
 });
 var boxB = Bodies.circle(width/2, 200,scaleValue(30), {   
     render: {
@@ -70,10 +70,10 @@ var boxB = Bodies.circle(width/2, 200,scaleValue(30), {
             yScale: scaleValue(80) / 931,
         }, 
     },
-    restitution: 1.2
+    restitution: 1.1 + width /5000
 });
 var boxC = Bodies.circle(width/2, 200, scaleValue(40), {
-    restitution: 1.3,
+    restitution: 1.1 + width /5000,
     render: {
         sprite: {
             texture: 'https://media.discordapp.net/attachments/977534405092470805/1368190960261140510/output-onlinepngtools.png?ex=681752a0&is=68160120&hm=3370e769290fca0362bcbc8ec094049f40276dbc03b9de7c73d0b169c65b5913&=&format=webp&quality=lossless&width=960&height=960',
@@ -83,7 +83,7 @@ var boxC = Bodies.circle(width/2, 200, scaleValue(40), {
     }
 });
 var boxD = Bodies.circle(width/2, 290, scaleValue(40), {
-    restitution: 1.3,
+    restitution: 1.1 + width /5000,
     render: {
         sprite: {
             texture: 'https://media.discordapp.net/attachments/977534405092470805/1368274732071518420/output-onlinepngtools_3.png?ex=6817a0a5&is=68164f25&hm=31f3ef4bb649e052b0b259fc7f2374b069b07cfbc00a258ab1acdab7a1315517&=&format=webp&quality=lossless&width=931&height=931',
@@ -93,7 +93,7 @@ var boxD = Bodies.circle(width/2, 290, scaleValue(40), {
     }
 });
 var boxE = Bodies.circle(width/2, 270, scaleValue(80), {
-    restitution: 1.1,
+    restitution: 1.1 + width /5000,
     render: {
         sprite: {
             texture: 'https://media.discordapp.net/attachments/977534405092470805/1368274741193871510/output-onlinepngtools_4.png?ex=6817a0a7&is=68164f27&hm=57f7f04e95adf5afbbd82190d48e1e125bf714224bc9fbbd46d03f99819f2193&=&format=webp&quality=lossless&width=778&height=778',
@@ -103,7 +103,7 @@ var boxE = Bodies.circle(width/2, 270, scaleValue(80), {
     }
 });
 var boxF = Bodies.circle(width/2, 260, scaleValue(40), {
-    restitution: 1.3,
+    restitution: 1.1 + width /5000,
     render: {
         sprite: {
             texture: 'https://media.discordapp.net/attachments/977534405092470805/1368277723465781320/output-onlinepngtools_5.png?ex=6817a36e&is=681651ee&hm=ba32dca4b98b9ca7f2fdb1f19ca77187c22d186c64fc9959ff42fae7c8ace28f&=&format=webp&quality=lossless&width=252&height=252',
@@ -120,10 +120,10 @@ var box5 = Bodies.rectangle(width/2, 240, scaleValue(100), scaleValue(100), {
             yScale: scaleValue(135) / 428,
         }, 
     },
-    restitution: 1.3
+    restitution: 1.1 + width /5000
 });
 var box6 = Bodies.rectangle(width/2, 220, scaleValue(40), scaleValue(40), {
-    restitution: 1.3,
+    restitution: 1.1 + width /5000,
     render: {
         sprite: {
             texture: 'https://media.discordapp.net/attachments/977534405092470805/1368279669941735586/output-onlinegiftools.gif?ex=6817a53e&is=681653be&hm=d52d504450725e323a5c9036ded5fcf1f26bc947de632524d1015ce54ca3a677&=&width=70&height=70',
