@@ -55,8 +55,8 @@ var img = Bodies.rectangle(width/2, 200, scaleValue(80), scaleValue(80), {
     render: {
         sprite: {
             texture: 'https://i.postimg.cc/3JdYbPMv/image.png',
-            xScale: scaleValue(80) / 960,
-            yScale: scaleValue(80) / 960,
+            xScale: scaleValue(80) / 800,
+            yScale: scaleValue(80) / 800,
 
         }, 
     },
@@ -66,8 +66,8 @@ var boxB = Bodies.circle(width/2, 200,scaleValue(30), {
     render: {
         sprite: {
             texture: 'https://i.postimg.cc/0N3p7gq0/image.png',
-            xScale: scaleValue(80) / 931,
-            yScale: scaleValue(80) / 931,
+            xScale: scaleValue(60) / 705,
+            yScale: scaleValue(60) / 705,
         }, 
     },
     restitution: 1.15 + width /9000
@@ -77,8 +77,8 @@ var boxC = Bodies.circle(width/2, 200, scaleValue(40), {
     render: {
         sprite: {
             texture: 'https://i.postimg.cc/F9GC71kh/image.png',
-            xScale: scaleValue(80) / 960,
-            yScale: scaleValue(80) / 960,
+            xScale: scaleValue(80) / 900,
+            yScale: scaleValue(80) / 900,
         }, 
     }
 });
@@ -87,8 +87,8 @@ var boxD = Bodies.circle(width/2, 290, scaleValue(40), {
     render: {
         sprite: {
             texture: 'https://i.postimg.cc/VLRnD086/image.png',
-            xScale: scaleValue(100) / 931,
-            yScale: scaleValue(100) / 931,
+            xScale: scaleValue(80) / 718,
+            yScale: scaleValue(80) / 718,
         }, 
     }
 });
@@ -97,8 +97,8 @@ var boxE = Bodies.circle(width/2, 270, scaleValue(80), {
     render: {
         sprite: {
             texture: 'https://i.postimg.cc/FKJf5720/image.png',
-            xScale: scaleValue(220)/ 778,
-            yScale: scaleValue(220) / 778,
+            xScale: scaleValue(160)/ 566,
+            yScale: scaleValue(160) / 566,
         }, 
     }
 });
@@ -107,8 +107,8 @@ var boxF = Bodies.circle(width/2, 260, scaleValue(40), {
     render: {
         sprite: {
             texture: 'https://i.postimg.cc/ZYj5Q8C1/image.png',
-            xScale: scaleValue(100) / 252,
-            yScale: scaleValue(100) / 252,
+            xScale: scaleValue(80) / 183,
+            yScale: scaleValue(80) / 283,
         }, 
     }
 });
@@ -116,8 +116,8 @@ var box5 = Bodies.rectangle(width/2, 240, scaleValue(100), scaleValue(100), {
     render: {
         sprite: {
             texture: 'https://i.postimg.cc/02Qy1zSr/image.png',
-            xScale: scaleValue(135) / 520,
-            yScale: scaleValue(135) / 428,
+            xScale: scaleValue(100) / 378,
+            yScale: scaleValue(100) / 311,
         }, 
     },
     restitution: 1.15 + width /9000
