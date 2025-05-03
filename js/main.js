@@ -49,7 +49,7 @@ var boxA = Bodies.rectangle(width/2, 200, scaleValue(80), scaleValue(80), {
         }, 
         fillStyle: null,
     },
-    restitution: 1.15 + width / 8000
+    restitution: 1.15 + width / 8500
 });
 var img = Bodies.rectangle(width/2, 200, scaleValue(80), scaleValue(80), {   
     render: {
@@ -60,7 +60,7 @@ var img = Bodies.rectangle(width/2, 200, scaleValue(80), scaleValue(80), {
 
         }, 
     },
-    restitution: 1.15 + width /8000
+    restitution: 1.15 + width /8500
 });
 var boxB = Bodies.circle(width/2, 200,scaleValue(30), {   
     render: {
@@ -70,10 +70,10 @@ var boxB = Bodies.circle(width/2, 200,scaleValue(30), {
             yScale: scaleValue(80) / 931,
         }, 
     },
-    restitution: 1.15 + width /8000
+    restitution: 1.15 + width /9000
 });
 var boxC = Bodies.circle(width/2, 200, scaleValue(40), {
-    restitution: 1.15 + width /8000,
+    restitution: 1.15 + width /9000,
     render: {
         sprite: {
             texture: 'https://i.postimg.cc/F9GC71kh/image.png',
@@ -83,7 +83,7 @@ var boxC = Bodies.circle(width/2, 200, scaleValue(40), {
     }
 });
 var boxD = Bodies.circle(width/2, 290, scaleValue(40), {
-    restitution: 1.15 + width /8000,
+    restitution: 1.15 + width /8500,
     render: {
         sprite: {
             texture: 'https://i.postimg.cc/VLRnD086/image.png',
@@ -93,7 +93,7 @@ var boxD = Bodies.circle(width/2, 290, scaleValue(40), {
     }
 });
 var boxE = Bodies.circle(width/2, 270, scaleValue(80), {
-    restitution: 1.15 + width /8000,
+    restitution: 1.15 + width /9000,
     render: {
         sprite: {
             texture: 'https://i.postimg.cc/FKJf5720/image.png',
@@ -103,7 +103,7 @@ var boxE = Bodies.circle(width/2, 270, scaleValue(80), {
     }
 });
 var boxF = Bodies.circle(width/2, 260, scaleValue(40), {
-    restitution: 1.15 + width /8000,
+    restitution: 1.15 + width /8500,
     render: {
         sprite: {
             texture: 'https://i.postimg.cc/ZYj5Q8C1/image.png',
@@ -120,10 +120,10 @@ var box5 = Bodies.rectangle(width/2, 240, scaleValue(100), scaleValue(100), {
             yScale: scaleValue(135) / 428,
         }, 
     },
-    restitution: 1.15 + width /8000
+    restitution: 1.15 + width /9000
 });
 var box6 = Bodies.rectangle(width/2, 220, scaleValue(40), scaleValue(40), {
-    restitution: 1.15 + width /8000,
+    restitution: 1.15 + width /9000,
     render: {
         sprite: {
             texture: 'https://i.postimg.cc/ZRH41mKr/output-onlinegiftools.gif',
